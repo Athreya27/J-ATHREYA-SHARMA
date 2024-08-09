@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Personal Portfolio Website Design | @Athreya</title>
+
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="Style/styles.css">
+        <style>
+            a:link {
+              color: green;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            a:visited {
+              color: pink;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            a:hover {
+              color: red;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            a:active {
+              color: yellow;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            </style>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, Myself</h3>
+                <h1>Josyula Athreya Sharma</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>A simple information about me</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/urstrulyathreya/?igsh=ZWl5NmNwOGJ0N2h1"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/athreya-josyula/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1YZP8onE6nMo_4CRpDrfsW2hceMILdkDg/view?usp=sharing" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="img/profiledp.png" alt="">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/aboutpic.png" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Data Analyst</h3>
+                <p>I am recent graduate of Raghu Engineering College in cse- Data Science.</p>
+                <h2 class="heading">Education</h2>
+                <p>B.Tech   Cse - Data Science - 7.56 cgpa <a href="https://drive.google.com/file/d/1Cp0Gzemd5MkYi6f6kpslwY_3Ol4rv_hR/view?usp=sharing" >CMM</a></p>
+                <p>Intermediate - 6.25 cgpa <a href="https://drive.google.com/file/d/1T91p0-_XhfIGsaA5B9mxXjWgXY-IZDvl/view?usp=sharing" >12th</a></p>
+                <p>10th - 8.8  cgpa <a href="https://drive.google.com/file/d/1dsieGerwHcAkizV0IrN-FIXZI2f79buZ/view?usp=sharing" >10th</a></p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>My SQL</h3>
+                    <p>I have a keen interest in MySQL and have completed several projects utilizing this relational database management system. These projects involved designing, developing, and managing databases, executing complex queries, and optimizing performance to handle large datasets effectively. Through these experiences, I have gained a solid understanding of database design principles, normalization, and SQL scripting.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Power BI</h3>
+                    <p>I have a keen interest in Power BI and have completed several projects utilizing this business analytics tool. These projects involved designing and developing interactive dashboards, creating data models, and visualizing data to provide actionable insights. Through these experiences, I have gained a solid understanding of data integration, DAX (Data Analysis Expressions), and effective storytelling through data visualization.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Python</h3>
+                    <p>I have a strong interest in Python and have completed various projects using this versatile programming language. These projects include developing data analysis scripts, automation tools, and web applications, showcasing my ability to leverage Python for diverse tasks and solutions.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Java</h3>
+                    <p>I have a keen interest in Java and have worked on multiple projects that involve building robust and scalable applications. My experience includes implementing object-oriented programming principles and developing solutions that are both efficient and maintainable.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Dbms</h3>
+                    <p>I am deeply interested in Database Management Systems (DBMS) and have undertaken several projects involving database design, management, and optimization. These projects have provided me with a solid understanding of data integrity, complex queries, and effective database administration.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="img/1.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Data Analyst</h4>
+                        <p> Bank Loan Case Study</p>
+                        <a href="https://github.com/Athreya27/Athreya-/blob/main/bank%20loan%20case%20study%20revised.pptx"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Python</h4>
+                        <p>Controlling Any merdia Via Hand Gestures</p>
+                        <a href="https://github.com/Athreya27/Athreya-/tree/main/Controlling%20Any%20Media%20player%20Via%20Hand%20Gestures"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/3.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Data Analytics</h4>
+                        <p>Instagram User Analytics</p>
+                        <a href="https://github.com/Athreya27/Athreya-/blob/main/Instagram%20User%20Analytics.pptx"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/4.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Portfolio</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/5.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Impact of car features</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="https://github.com/Athreya27/Athreya-/blob/main/Impact%20of%20Car%20Features.pptx"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img/6.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Data Analytics</h4>
+                        <p>Doctor_visit_analysis</p>
+                        <a href="https://github.com/Athreya27/J-ATHREYA-SHARMA/blob/main/Doctor_visit_analysis.ipynb"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Josyula Athreya Sharma</span></h2>
+
+            <form action="#">
+                
+                <h1>Mail: athreyasharma6281@gmail.com <a href="https://mail.google.com/mail/u/0/?login#inbox?compose=CllgCJqXPXPvSbrMcPPGqQxPldhKqsFcfdtPRgXKNhZKQQnBhWrDXVLwJvQHnmkvGVfKpFSHKvV">Mail</a></h1>
+                <h1>Phone Number: +91 6281469148</h1>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by @Josyula Athreya Sharma | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>
